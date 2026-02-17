@@ -1,0 +1,305 @@
+# 🛍️ Myntra Sales & Customer Analytics Dashboard
+
+> An end-to-end data analysis and business intelligence project on Myntra's e-commerce dataset — covering data cleaning, exploratory analysis in Excel, and an interactive Power BI dashboard for actionable retail insights.
+
+---
+
+## 📸 Dashboard Preview
+
+<!-- SCREENSHOT GUIDE — replace the paths below with your actual screenshot files -->
+
+| Overview Page | Category Breakdown |
+|---|---|
+| ![Overview](screenshots/dashboard_overview.png) | ![Category](screenshots/category_breakdown.png) |
+
+| Customer Insights | Sales Trends |
+|---|---|
+| ![Customers](screenshots/customer_insights.png) | ![Trends](screenshots/sales_trends.png) |
+
+> 📌 **See [`screenshots/`](./screenshots/) for full-resolution images.**
+
+---
+
+## 📋 Table of Contents
+
+- [Project Overview](#-project-overview)
+- [Key Insights](#-key-insights)
+- [Tech Stack](#-tech-stack)
+- [Project Structure](#-project-structure)
+- [Quick Start](#-quick-start)
+- [Data Analysis Workflow](#-data-analysis-workflow)
+- [Dashboard Features](#-dashboard-features)
+- [Screenshots Guide](#-screenshots-guide)
+- [Action Plan](#-action-plan)
+- [License](#-license)
+
+---
+
+## 🎯 Project Overview
+
+This project analyzes Myntra's fashion e-commerce data to uncover patterns in sales performance, customer behaviour, product category trends, and brand popularity. The goal was to translate raw transactional data into clear, decision-ready visuals for a business stakeholder audience.
+
+**Business Questions Answered:**
+- Which product categories and brands drive the most revenue?
+- How do discounts affect purchase volume and profitability?
+- What are the peak sales periods throughout the year?
+- Which customer segments show the highest lifetime value?
+- How does pricing strategy vary across categories?
+
+---
+
+## 💡 Key Insights
+
+> *(Update these with your actual findings once you review the dashboard)*
+
+- **Top Category:** `[e.g., Men's Clothing]` contributes `X%` of total revenue
+- **Discount Sweet Spot:** Products with `X–X%` discount show the highest conversion rates
+- **Peak Season:** Sales spike in `[Month/Quarter]`, suggesting promotional opportunities
+- **Brand Concentration:** Top 10 brands account for `X%` of total orders
+- **Rating Impact:** Products rated above `4.0` sell `X times` more than lower-rated alternatives
+
+---
+
+## 🛠️ Tech Stack
+
+| Tool | Purpose |
+|---|---|
+| **Microsoft Excel** | Data cleaning, EDA, pivot tables, preliminary charts |
+| **Power BI Desktop** | Interactive dashboard, DAX measures, data modelling |
+| **Power Query** | Data transformation and shaping within Power BI |
+| **DAX** | Custom KPI calculations and time intelligence |
+
+---
+
+## 📁 Project Structure
+
+```
+myntra-analytics-dashboard/
+│
+├── 📊 data/
+│   ├── raw/
+│   │   └── myntra_raw_data.xlsx          # Original dataset
+│   └── processed/
+│       └── myntra_cleaned_data.xlsx      # Cleaned & transformed data
+│
+├── 📈 analysis/
+│   └── myntra_eda.xlsx                   # Excel EDA workbook (pivot tables, charts)
+│
+├── 📉 dashboard/
+│   └── Myntra_PowerBI_Dashboard.pbix     # Power BI report file
+│
+├── 🖼️ screenshots/
+│   ├── dashboard_overview.png
+│   ├── category_breakdown.png
+│   ├── customer_insights.png
+│   └── sales_trends.png
+│
+├── 📄 docs/
+│   └── data_dictionary.md               # Column definitions and data descriptions
+│
+├── README.md
+└── LICENSE
+```
+
+---
+
+## ⚡ Quick Start
+
+### Prerequisites
+
+- [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) (free) — required to open the `.pbix` file
+- Microsoft Excel 2016+ or [LibreOffice Calc](https://www.libreoffice.org/) — to view the analysis workbook
+
+### Steps
+
+**1. Clone the repository**
+```bash
+git clone https://github.com/YOUR_USERNAME/myntra-analytics-dashboard.git
+cd myntra-analytics-dashboard
+```
+
+**2. Explore the Excel analysis**
+```
+Open: analysis/myntra_eda.xlsx
+```
+Navigate the sheets to follow the data cleaning steps and exploratory analysis.
+
+**3. Open the Power BI dashboard**
+```
+Open: dashboard/Myntra_PowerBI_Dashboard.pbix
+```
+Power BI Desktop will load the full interactive report. Use the page tabs at the bottom to navigate between views.
+
+**4. Refresh data (optional)**
+
+If you update the source data, go to **Home → Refresh** in Power BI Desktop to reload.
+
+---
+
+## 🔄 Data Analysis Workflow
+
+```
+Raw Data (Excel)
+      │
+      ▼
+Data Cleaning (Excel)
+  • Remove duplicates
+  • Handle nulls & outliers
+  • Standardise column formats
+  • Derive new columns (e.g., discount %, price bands)
+      │
+      ▼
+Exploratory Data Analysis (Excel)
+  • Pivot tables for category/brand summaries
+  • Distribution analysis of ratings & prices
+  • Trend analysis across time periods
+      │
+      ▼
+Power BI Import & Modelling
+  • Connect to cleaned Excel data
+  • Power Query transformations
+  • Build data model & relationships
+  • Write DAX measures (KPIs, time intelligence)
+      │
+      ▼
+Dashboard Design & Visualisation
+  • Overview KPI cards
+  • Category & brand breakdowns
+  • Time-series trend charts
+  • Customer behaviour visuals
+  • Slicers & cross-filtering
+```
+
+---
+
+## 📊 Dashboard Features
+
+**Page 1 — Executive Overview**
+- Total Revenue, Orders, Avg. Order Value, Avg. Discount % (KPI cards)
+- Revenue trend over time (line chart)
+- Top 5 categories by revenue (bar chart)
+
+**Page 2 — Product & Category Analysis**
+- Revenue and order volume by category (treemap / stacked bar)
+- Brand performance leaderboard
+- Price range distribution (histogram)
+- Discount vs. rating scatter plot
+
+**Page 3 — Customer Insights**
+- Order volume segmented by customer rating
+- Repeat vs. one-time purchase patterns
+- High-value product clusters
+
+**Page 4 — Sales Trends**
+- Month-on-month and year-on-year comparisons
+- Seasonal patterns
+- Category-level trend lines
+
+**Interactive Features**
+- Cross-page slicers (Category, Brand, Date Range, Rating)
+- Drill-through from summary to product-level detail
+- Tooltips with contextual metrics on hover
+
+---
+
+## 🖼️ Screenshots Guide
+
+> Here is exactly what screenshots to take and where to save them:
+
+| Filename | What to capture |
+|---|---|
+| `screenshots/dashboard_overview.png` | Full first page of the dashboard (Executive Overview) |
+| `screenshots/category_breakdown.png` | The category/brand analysis page |
+| `screenshots/customer_insights.png` | Customer behaviour or ratings page |
+| `screenshots/sales_trends.png` | Time-series or trends page |
+| `screenshots/excel_pivot.png` *(optional)* | A key pivot table or chart from the Excel workbook |
+| `screenshots/data_model.png` *(optional)* | The Power BI Model view showing table relationships |
+
+**How to take a clean screenshot in Power BI:**
+1. Set the report view to **Fit to Page** (View → Fit to Page)
+2. Press `Windows + Shift + S` to snip the dashboard area
+3. Save at full resolution (1920×1080 or higher recommended)
+
+---
+
+## 🗺️ Action Plan
+
+This section documents the project roadmap for transparency and reproducibility.
+
+### ✅ Phase 1 — Data Collection & Understanding
+- [x] Sourced Myntra e-commerce dataset
+- [x] Reviewed schema: products, pricing, discounts, ratings, categories, brands
+- [x] Defined key business questions
+
+### ✅ Phase 2 — Data Cleaning (Excel)
+- [x] Removed duplicate product entries
+- [x] Handled missing values in ratings and pricing columns
+- [x] Standardised category and brand name formats
+- [x] Created derived columns: `Discount %`, `Price Band`, `Rating Tier`
+- [x] Exported cleaned dataset for Power BI import
+
+### ✅ Phase 3 — Exploratory Data Analysis (Excel)
+- [x] Pivot table: Revenue by Category
+- [x] Pivot table: Top Brands by Order Volume
+- [x] Distribution charts: Price & Discount ranges
+- [x] Correlation check: Discount % vs. Customer Rating
+
+### ✅ Phase 4 — Power BI Dashboard Development
+- [x] Connected Power BI to cleaned Excel data
+- [x] Transformed and shaped data in Power Query
+- [x] Built DAX measures for KPIs
+- [x] Designed multi-page interactive report
+- [x] Added slicers, drill-through, and tooltips
+
+### 🔲 Phase 5 — Portfolio Publishing (In Progress)
+- [x] Structured GitHub repository
+- [ ] Add screenshots to `screenshots/` folder
+- [ ] Complete data dictionary (`docs/data_dictionary.md`)
+- [ ] Publish to GitHub
+- [ ] Add repository link to LinkedIn / portfolio
+
+### 🔮 Future Enhancements
+- [ ] Incorporate Python (Pandas/Seaborn) for deeper statistical analysis
+- [ ] Build a predictive model for sales forecasting
+- [ ] Publish report to Power BI Service for live web sharing
+- [ ] Add RFM (Recency, Frequency, Monetary) customer segmentation
+
+---
+
+## 📄 Data Dictionary
+
+See [`docs/data_dictionary.md`](./docs/data_dictionary.md) for full column definitions.
+
+| Column | Description |
+|---|---|
+| `product_id` | Unique identifier for each product |
+| `product_name` | Name of the product |
+| `brand` | Brand name |
+| `category` | Product category (e.g., Men's Clothing) |
+| `original_price` | Listed price before discount (₹) |
+| `discounted_price` | Final selling price after discount (₹) |
+| `discount_pct` | Discount percentage applied |
+| `rating` | Average customer rating (1–5 scale) |
+| `rating_count` | Number of customer ratings |
+
+> *(Add or remove rows based on your actual dataset columns)*
+
+---
+
+## 🤝 Connect
+
+**[Your Name]** — Senior Data Analyst
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com/in/YOUR_PROFILE)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-orange?style=flat)](https://YOUR_PORTFOLIO_URL)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat&logo=github)](https://github.com/YOUR_USERNAME)
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
+---
+
+*⭐ If you found this project useful or insightful, consider starring the repository!*
