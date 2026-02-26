@@ -8,7 +8,8 @@
 
 | Overview Page | 
 
-| ![Overview]([screenshots/dashboard_overview.png](https://1drv.ms/i/c/f5381d51b5b1a4fd/IQDWpFggHzGUQL9nyF8yTtUVAVUO6Vkf0y-GsTW0Wpi-75k?e=Tbq75d)) |
+| ![Overview](<img width="1437" height="812" alt="POWERBI DASHBOARD" src="https://github.com/user-attachments/assets/ea8f5cad-4099-4ccc-ac06-137ed9ebfb5f" />
+) |
 ---
 
 ## 📋 Table of Contents
