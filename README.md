@@ -219,7 +219,7 @@ See [`docs/data_dictionary.md`](./docs/data_dictionary.md) for full column defin
 
 **[Amrit Kaur Saini]** —  Data Analyst
 
-[![LinkedIn](https://www.linkedin.com/in/amrit-kaur-saini-259783294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+[![LinkedIn](https://www.linkedin.com/in/amrit-kaur-saini-259783294?)
 
 [![GitHub](https://github.com/AmritKSaini)
 
