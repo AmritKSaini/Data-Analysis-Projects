@@ -68,16 +68,17 @@ myntra-analytics-dashboard/
 │       └── myntra_cleaned_data.xlsx      # Cleaned & transformed data
 │
 ├── 📈 analysis/
-│   └── myntra_eda.xlsx                   # Excel EDA workbook (pivot tables, charts)
+│   └── myntra_dataset.xlsx                   # Excel EDA workbook (pivot tables, charts)
 │
 ├── 📉 dashboard/
 │   └── Myntra_PowerBI_Dashboard.pbix     # Power BI report file
 │
 ├── 🖼️ screenshots/
-│   ├── dashboard_overview.png
-│   ├── category_breakdown.png
-│   ├── customer_insights.png
-│   └── sales_trends.png
+│   ├── raw_data.png
+│   ├── preprocessed_data.png
+│   ├── cleaned_dataset.png
+│   ├── pivots_and_charts.png
+|   └── Dashboard.png
 │
 ├── 📄 docs/
 │   └── data_dictionary.md               # Column definitions and data descriptions
