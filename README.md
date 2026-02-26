@@ -6,11 +6,8 @@
 
 ## 📸 Dashboard Preview
 
-| Overview Page | 
 <img width="1437" height="812" alt="POWERBI DASHBOARD" src="https://github.com/user-attachments/assets/9a06e8b4-b8b0-4217-ac6e-5cf791da35d6" />
 
-| ![Overview](<img width="1437" height="812" alt="POWERBI DASHBOARD" src="https://github.com/user-attachments/assets/ea8f5cad-4099-4ccc-ac06-137ed9ebfb5f" />
-) |
 ---
 
 ## 📋 Table of Contents
